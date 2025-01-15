@@ -1,12 +1,15 @@
 import './App.css'
-import Default from './Components/Default.jsx';
+
+import Navigator from "./Components/Navigation/Navigator.jsx";
+import Router from "./Components/Navigation/Router.jsx";
 
 function App() {
-   return (
+  return (
     <>
-      <Default />
+      <Navigator />
+      <Router />
     </>
   )
 }
 
-export default App
+export default App;
